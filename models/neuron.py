@@ -94,7 +94,8 @@ class Neuron():
             'v': vs,
             'n': ns,
             'm': ms,
-            'h': hs
+            'h': hs,
+            'I_ext': self.I_ext
         }
 
         return self._results
